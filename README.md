@@ -12,6 +12,7 @@ composer require dazlab/laravel-usersnap-plugin
 Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
 Set `USERSNAP_APP_KEY` in `.env`.
+`USERSNAP_ENABLED` is true bu default.
 
 ### Laravel < 5.5:
 
