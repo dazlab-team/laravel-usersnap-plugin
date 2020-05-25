@@ -1,0 +1,27 @@
+{
+    "name": "dazlab/laravel-usersnap-plugin",
+    "description": "Usersnap integration",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "5.5.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "DazLab\\Usersnap\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DazLab\\Usersnap\\ServiceProvider"
+            ]
+        }
+    }
+}
