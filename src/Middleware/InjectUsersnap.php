@@ -50,7 +50,7 @@ class InjectUsersnap
     {
         $content = $response->getContent();
 
-        if (!$appKey = config('usersnap.app_key') && config('usersnap.enabled') !== false) {
+        if (!($appKey = config('usersnap.app_key')) && config('usersnap.enabled') !== false) {
             throw new Exception('Please set Usersnap app key in environment');
         }
 
